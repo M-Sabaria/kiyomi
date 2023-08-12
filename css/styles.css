@@ -1,0 +1,153 @@
+body{
+  font-family: 'Edu SA Beginner', cursive;
+  background-color: #ffc7dd;
+  color: white;
+  text-align: center;
+}
+#title {
+  height: 800px;
+  text-align: left;
+}
+ h1{
+  font-size: 5rem;
+  line-height: 1.5;
+}
+
+ h2{
+  font-size: 90px;
+  font-weight: 700;
+  margin: 5% 7%;
+}
+    
+  h3{
+  font-family: 'Edu SA Beginner', cursive; font-weight: bolder;
+  font-size: 3rem;
+}
+
+
+.container-fluid {
+  padding: 2% 7% 0%;
+}
+
+.navbar{
+  padding-bottom: 7.5rem
+}
+.navbar-brand{
+  font-size: 2rem; font-weight: bolder;
+}
+.navbar-nav{
+  font-size: 1.5rem; font-weight: bold;
+}
+.nav-item {
+  padding: 0 5px;
+}
+
+.downbtn {
+  margin-top: 5%;
+  font-size: 1.5rem;
+}
+
+.title-img{
+  width: 30%;
+  transform: rotate(25deg);
+  margin-top: 2%;
+  position: absolute;
+
+}
+
+.f-box{
+ padding: 4%;
+ 
+}
+
+#features{
+  padding: 7% 15%;
+  background-color: #ffffff;
+  position: relative;
+  color: #000;
+}
+
+.point{
+  width: 125px;
+  height: 125px;
+  margin-bottom: 10%;
+}
+
+#testimonials{
+  padding: 4% 7%;
+  font-size: 18px;
+  height: 60rem;
+}
+
+.pp{
+  height: 125px;
+  border-radius: 100%;
+  margin: 1%;
+  margin-top: 40px;
+}
+
+
+#press{
+  padding: 3% 0% 3%;
+}
+
+.press{
+  width: 10%;
+  margin: 15px 20px 15px;
+}
+
+#pricing{
+  padding: 150px 70px;
+  padding-bottom: 6%;
+  background-color: #ffffff;
+  color: #000000;
+}
+.col{
+  padding: 3% 2%;
+  padding-bottom: 1%;
+}
+.pricingc{
+  
+  background-color: #fd9bb0;
+  color: #ffffff;
+}
+
+#cta{
+  height: 800px;
+  padding: 2%;
+  margin: 0%;
+}
+#footer{
+  background-color: #ffffff;
+  color: #000000;
+  padding: 6%;
+  padding-bottom: 1%;
+}
+
+@media (max-width: 990px){
+  .title-img{
+    position: static;
+    transform: rotate(0);
+    margin-top: 10%;
+    width: 90%;
+  }
+   #title{
+    text-align: center;
+    height: 1200px;
+   }
+   h1{
+    line-height: 1.05;
+   }
+}
+
+@media (max-width:1800px) and (min-width:991){
+  .title-img{
+    margin-top: 4%;
+    width: 100%;
+  }
+ 
+}
+
+.soci{
+  padding: 3% 1%;
+}
